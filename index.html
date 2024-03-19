@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar hall</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</head>
+<body>
+
+    <h3 style="font-size:1.5vw;", id="heading">
+    SEMINAR HALL BOOKING PAGE
+    </h3>
+    <div class="container">
+    <form>
+        <div class="text_align_in_box">
+        <div class="col-25" >Event name:
+        </div>
+        <input type="text" class="col-75" placeholder="eg:communication skill development program "
+         id="event_validate" required></input><br><br>
+        <div class="col-25">Date:
+        </div>
+        <input type="date" id="date_validate" class="col-75" required></input><br><br>
+        <div class="col-25">Time:
+        </div>
+        <input type="time" id="time_validate" class="col-75"required></input><br><br>
+         <div class="col-25">Staff Name:
+        </div>
+        <input type="text" class="col-75-staffname" placeholder="Staff Name" id="staff_namee" required></input><br>
+        <div class="col-25">Department:
+          </div> 
+          <select name="staffnames"required class="col-75">
+            <option value="select" >select Department </option>
+            <option value="BE.CSE">BE.CSE</option>
+            <option value="BE.MECHANICAL">BE.MECHANICAL</option>
+            <option value="BE.AI&DS">BE.AI&DS</option>
+            <option value="BE.IT">BE.IT</option>
+            <option value="BE.ECE">BE.ECE</option>
+            <option value="MBA">MBA</option>
+          </select><br><br>
+          <div class="col-25">Seminar Hall:
+        </div> 
+        <select required name="staffnames"  class="col-75">
+            <option value="select">select hall </option>
+            <option value="DR. APJ ABDUL KALAM ARANGAM">DR. APJ ABDUL KALAM ARANGAM</option>
+            <option value="SIR C V RAMAN ARANGAM">SIR C V RAMAN ARANGAM</option>
+            <option value="">THOMAS ALVA EDISON HALL</option>
+            <option value="JAMES WATT HALL">JAMES WATT HALL</option>
+            <option value="PETER DRUCKER HALL">PETER DRUCKER HALL</option>
+          </select>
+        </div>
+    
+
+<div class="wrap">
+  <button onclick="check()" class="button">Submit</button>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
