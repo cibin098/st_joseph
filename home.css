@@ -29,7 +29,7 @@ h4{
    border-radius:10px;
    border-style:none;
    background: linear-gradient(90deg, rgb(107, 219, 253)1%, rgba(247, 108, 235, 0.977)  52%, rgba(167,174,184,1) 87%); 
-   top:100px;
+   top:90px;
   
 }
 .container{
@@ -75,7 +75,7 @@ button{
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     left: 200px;
-    top:50px
+    top:30px
 }
 .col-75 {
     width: 60%;
