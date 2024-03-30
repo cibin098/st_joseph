@@ -19,6 +19,7 @@ h4{
   font-size: xx-large;
   color: black;
   text-align: center;
+  text-transform: uppercase;
   text-decoration-thickness:2px ;
 }
 
@@ -79,6 +80,7 @@ button{
 .col-75 {
     width: 60%;
     margin-top: 7px;
+    margin-left: 20px;
 
   }
   
